@@ -11,12 +11,12 @@ a:link, a:visited {
     color: #212121;
 }
 
-pre, code {
-    background: #F5F5F5;
-}
-
 blockquote {
     color: #9E9E9E;
+}
+
+pre, code {
+    background: #F5F5F5;
 }
 
 hr {
