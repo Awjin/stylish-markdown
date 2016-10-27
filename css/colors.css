@@ -1,0 +1,24 @@
+body, html {
+    background: #FFFFFF;
+    color: #212121;
+}
+
+h1, h2 {
+    color: #FF5722;
+}
+
+a:link, a:visited {
+    color: #212121;
+}
+
+pre, code {
+    background: #F5F5F5;
+}
+
+blockquote {
+    color: #9E9E9E;
+}
+
+hr {
+    background: #E0E0E0;
+}
