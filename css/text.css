@@ -5,20 +5,22 @@ html, body {
 }
 
 h1, h2, h3 {
-    margin: 1.6em 0 .8em 0;
     line-height: 140%;
     font-family: Tahoma, sans-serif;
 }
 
 h1 {
+    margin: 2em 0 1em 0;
     font-size: 225%;
 }
 
 h2 {
+    margin: 1.4em 0 .8em 0;
     font-size: 150%;
 }
 
 h3 {
+    margin: 1.7em 0 1em 0;
     font-size: 110%;
     font-weight: bold;
 }
