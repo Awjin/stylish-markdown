@@ -1,8 +1,4 @@
 @import "reset.css";
+@import "containers.css";
 @import "text.css";
 @import "colors.css";
-
-article {
-    margin: 5em auto 10em auto;
-    width: 40em;
-}

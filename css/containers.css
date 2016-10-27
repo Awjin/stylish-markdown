@@ -1,0 +1,9 @@
+html {
+    padding: 0 1.6em;
+}
+
+article {
+    margin: 5em auto 15em auto;
+    width: 100%;
+    max-width: 38em;
+}
