@@ -1,7 +1,7 @@
 html, body {
+    font-family: Georgia, serif;
     font-size: 18px;
     line-height: 160%;
-    font-family: Georgia, serif;
 }
 
 h1, h2, h3 {
@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-    margin: 1.7em 0 1em 0;
+    margin: 1.9em 0 1em 0;
     font-size: 110%;
     font-weight: bold;
 }
@@ -30,7 +30,7 @@ p, ol, ul {
 }
 
 ol, ul {
-    margin-left: 3em;
+    margin-left: 2.6em;
     list-style-position: outside;
 }
 
@@ -43,8 +43,7 @@ ul {
 }
 
 ol ol, ul ul, ol ul, ul ol {
-    margin-bottom: 0;
-    margin-left: 2em;
+    margin: 0 0 0 2em;
 }
 
 ol li {
@@ -70,22 +69,25 @@ em {
 }
 
 blockquote {
-    padding: 0 2.5em;
+    margin: 2.1em 0 2em 0;
+    padding: 1em 1.8em 1.1em 1.8em;
+    font-size: 16px;
     font-style: italic;
+    line-height: 160%;
+}
+
+pre {
+    margin: 2.1em 0 2em 0;
+    padding: 1em 1.6em 1.1em 1.6em;
+    overflow-x: auto;
+    line-height: 120%;
 }
 
 code {
     margin: 0 .1em;
-    padding: .25em .5em;
-    font-family: monospace;
+    padding: .25em .5em .3em .5em;
+    font-family: Courier, monospace;
     font-size: 16px;
-}
-
-pre {
-    margin: 2em 0;
-    padding: 1.25em 1.75em;
-    overflow-x: auto;
-    line-height: 133%;
 }
 
 pre code {
