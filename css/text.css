@@ -83,16 +83,16 @@ pre {
     line-height: 120%;
 }
 
+blockquote *, pre * {
+    margin: 0;
+    padding: 0;
+}
+
 code {
     margin: 0 .1em;
     padding: .25em .5em .3em .5em;
     font-family: Courier, monospace;
     font-size: 16px;
-}
-
-pre code {
-    margin: 0;
-    padding: 0;
 }
 
 hr {
