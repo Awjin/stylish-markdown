@@ -54,10 +54,8 @@ ul li {
     padding-left: .25em;
 }
 
-a:focus, a:hover, a:active {
-    opacity: .5;
+a:hover {
     text-decoration: none;
-    outline: none;
 }
 
 strong {
