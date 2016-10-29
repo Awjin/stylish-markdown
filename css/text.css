@@ -68,24 +68,20 @@ em {
     font-style: italic;
 }
 
-blockquote {
+blockquote, pre {
     margin: 2.1em 0 2em 0;
-    padding: 1em 1.8em 1.1em 1.8em;
+    padding: .9em 1.3em 1.1em 1.3em;
+}
+
+blockquote {
     font-size: 16px;
     font-style: italic;
     line-height: 160%;
 }
 
 pre {
-    margin: 2.1em 0 2em 0;
-    padding: 1em 1.6em 1.1em 1.6em;
     overflow-x: auto;
     line-height: 120%;
-}
-
-blockquote *, pre * {
-    margin: 0;
-    padding: 0;
 }
 
 code {
@@ -93,6 +89,11 @@ code {
     padding: .25em .5em .3em .5em;
     font-family: Courier, monospace;
     font-size: 16px;
+}
+
+blockquote *, pre * {
+    margin: 0;
+    padding: 0;
 }
 
 hr {
