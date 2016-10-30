@@ -3,16 +3,16 @@ body, html {
     color: #212121;
 }
 
-h1, h2 {
-    color: #FF5722;
-}
-
 a:link, a:visited {
     color: #212121;
 }
 
 blockquote, pre, code {
     background: #EEEEEE;
+}
+
+blockquote *, pre *, code * {
+    color: #212121;
 }
 
 hr {
