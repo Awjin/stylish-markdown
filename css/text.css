@@ -67,8 +67,8 @@ em {
 }
 
 blockquote, pre {
-    margin: 2.1em 0 2em 0;
-    padding: .9em 1.3em 1.2em 1.3em;
+    margin-bottom: 1.6em;
+    padding: .9em 1.3em 1.15em 1.3em;
 }
 
 blockquote {
@@ -84,7 +84,7 @@ pre {
 
 code {
     margin: 0 .1em;
-    padding: .25em .5em .3em .5em;
+    padding: .15em .4em;
     font-family: Courier, monospace;
     font-size: 16px;
 }
