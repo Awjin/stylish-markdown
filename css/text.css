@@ -54,10 +54,6 @@ ul li {
     padding-left: .25em;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
 strong {
     font-weight: bold;
 }
