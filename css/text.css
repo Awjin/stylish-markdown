@@ -54,6 +54,14 @@ ul li {
     padding-left: .25em;
 }
 
+a, a:active {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
 strong {
     font-weight: bold;
 }

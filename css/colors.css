@@ -1,20 +1,20 @@
 body, html {
     background: #FFFFFF;
-    color: #212121;
+    color: #37474F;
 }
 
 a:link, a:visited {
-    color: #212121;
+    color: #0091EA;
 }
 
 blockquote, pre, code {
-    background: #EEEEEE;
+    background: #ECEFF1;
 }
 
 blockquote *, pre *, code * {
-    color: #212121;
+    color: #263238;
 }
 
 hr {
-    background: #757575;
+    background: #B0BEC5;
 }
