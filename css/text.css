@@ -1,7 +1,7 @@
 html, body {
+    line-height: 165%;
     font-family: Georgia, serif;
     font-size: 18px;
-    line-height: 160%;
 }
 
 h1, h2, h3 {
@@ -10,27 +10,27 @@ h1, h2, h3 {
 }
 
 h1 {
-    margin: 2em 0 1em 0;
+    margin: 2em 0 1.1em 0;
     font-size: 225%;
 }
 
 h2 {
-    margin: 1.4em 0 .8em 0;
-    font-size: 150%;
+    margin-top: 1.5em;
+    font-size: 165%;
 }
 
 h3 {
-    margin: 1.9em 0 1em 0;
+    margin-top: 1.5em;
     font-size: 110%;
     font-weight: bold;
 }
 
 p, ol, ul {
-    margin-bottom: 1.6em;
+    margin-top: 1em;
 }
 
 ol, ul {
-    margin-left: 2.6em;
+    margin-left: 2.5em;
     list-style-position: outside;
 }
 
@@ -63,14 +63,16 @@ em {
 }
 
 blockquote, pre {
-    margin-bottom: 1.6em;
-    padding: .9em 1.3em 1.15em 1.3em;
+    display: inline-block;
+    width: 100%;
+    margin-top: 1.25em;
+    padding: 1em 1.3em 1.3em 1.3em;
 }
 
 blockquote {
+    line-height: 160%;
     font-size: 16px;
     font-style: italic;
-    line-height: 160%;
 }
 
 pre {
@@ -93,6 +95,6 @@ blockquote *, pre * {
 hr {
     width: 100%;
     height: 1px;
-    margin: 3.2em 0;
+    margin: 3em 0;
     border: none;
 }
