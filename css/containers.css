@@ -1,9 +1,6 @@
-body {
-    padding: 0 1.6em;
-}
-
 article {
     margin: 0 auto 15em auto;
+    padding: 0 1.6em;
     width: 100%;
     max-width: 38em;
 }
