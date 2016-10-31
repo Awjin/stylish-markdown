@@ -4,15 +4,16 @@
     right: 0;
     max-height: 100%;
     overflow-y: auto;
+    width: 100%;
 }
 
 #main-page > * {
     width: 100%;
     max-width: 42em;
-    margin-left: auto;
     margin-right: auto;
-    padding-left: 2em;
+    margin-left: auto;
     padding-right: 2em;
+    padding-left: 2em;
 }
 
 article {
@@ -32,4 +33,15 @@ article {
     font-family: Tahoma, sans-serif;
     font-size: 14px;
     line-height: 150%;
+    visibility: hidden;
+}
+
+@media (min-width: 60em) {
+    #main-page {
+        width: 75%;
+    }
+
+    #table-of-contents {
+        visibility: visible;
+    }
 }
