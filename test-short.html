@@ -3,22 +3,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes">
-    <link href="https://awjin.github.io/assets/css/base.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/base.js"></script>
+    <link rel="stylesheet" href="https://awjin.github.io/assets/css/base.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/base.js"></script>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Awjin/awjin.github.io/master/assets/icons/favicon.ico">
     <title>Stylish Markdown | Awjin</title>
 </head>
 
 <body>
     <div id="main-page">
         <header>
-            <a href="/" class="button skeuomorphic medium blue">Home</a>
+            <a class="button medium skeuomorphic blue" href="https://github.com/Awjin/stylish-markdown">Source</a>
         </header>
 
         <article>
             <h1>Heading One</h1>
 
-            <h2>Heading Two</h2>
+            <h2 id="heading-two">Heading Two</h2>
 
             <p>
                 Lorem ipsum dolor sit amet, natum affert te quo. Usu nihil senserit constituam no.
@@ -37,7 +38,7 @@
                 </p>
             </blockquote>
 
-            <h3>Heading Three</h3>
+            <h3 id="heading-three">Heading Three</h3>
 
             <ol>
                 <li>item one</li>
@@ -71,5 +72,15 @@ end</code></pre>
                 </p>
             </article>
         </div>
+
+        <nav id="table-of-contents">
+            <ul class="table-of-contents-first-level">
+                <li><a href="#heading-two">Heading Two</a>
+                    <ul class="table-of-contents-second-level">
+                        <li><a href="#heading-three">Heading Three</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </body>
 </html>

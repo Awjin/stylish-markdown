@@ -4,7 +4,6 @@
     right: 0;
     max-height: 100%;
     overflow-y: auto;
-    padding: 3em 0 15em 0;
 }
 
 #main-page > * {
@@ -14,6 +13,11 @@
     margin-right: auto;
     padding-left: 2em;
     padding-right: 2em;
+}
+
+article {
+    padding-top: 4em;
+    padding-bottom: 16em;
 }
 
 #table-of-contents {
