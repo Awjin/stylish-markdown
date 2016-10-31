@@ -1,3 +1,4 @@
+/* Core style */
 html, body {
     line-height: 165%;
     font-family: Georgia, serif;
@@ -10,7 +11,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    margin: 2em 0 1.1em 0;
+    margin-bottom: 1.1em;
     font-size: 225%;
 }
 
@@ -105,4 +106,32 @@ hr {
     height: 1px;
     margin: 3em 0;
     border: none;
+}
+
+/* Table of contents */
+#table-of-contents ul {
+    margin-left: 0em;
+    list-style-type: none;
+}
+
+.table-of-contents-first-level {
+    max-width: 20em;
+    font-weight: bold;
+}
+
+.table-of-contents-second-level {
+    font-weight: normal;
+}
+
+.table-of-contents-first-level > li {
+    padding-bottom: 1.5em;
+}
+
+#table-of-contents a {
+    display: block;
+    padding: .5em 0;
+}
+
+#table-of-contents a:hover, #table-of-contents a:focus, #table-of-contents a:active {
+    text-decoration: none;
 }

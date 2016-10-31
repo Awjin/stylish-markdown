@@ -1,6 +1,6 @@
 body, html {
-    background: #FFFFFF;
-    color: #37474F;
+    background: #FDFEFF;
+    color: #263238;
 }
 
 a:link, a:visited {
@@ -11,10 +11,18 @@ blockquote, pre, code {
     background: #ECEFF1;
 }
 
-blockquote *, pre *, code * {
-    color: #263238;
-}
-
 hr {
     background: #B0BEC5;
+}
+
+#table-of-contents {
+    background: #ECEFF1;
+}
+
+#table-of-contents a:link, #table-of-contents a:visited {
+    color: #37474F;
+}
+
+#table-of-contents a:hover, #table-of-contents a:focus, #table-of-contents a:active {
+    color: #0091EA;
 }
