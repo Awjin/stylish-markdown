@@ -7,16 +7,12 @@ a:link, a:visited {
     color: #0091EA;
 }
 
-blockquote, pre, code {
+blockquote, pre, code, #table-of-contents {
     background: #ECEFF1;
 }
 
 hr {
     background: #B0BEC5;
-}
-
-#table-of-contents {
-    background: #ECEFF1;
 }
 
 #table-of-contents a:link, #table-of-contents a:visited {

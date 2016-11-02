@@ -1,10 +1,23 @@
-#main-page {
+#main-page, #table-of-contents {
     position: fixed;
-    left: 0;
-    right: 0;
+    top: 0;
+    bottom: 0;
     max-height: 100%;
     overflow-y: auto;
     width: 100%;
+}
+
+#main-page {
+    left: 0;
+}
+
+#table-of-contents {
+    right: 0;
+    padding: 1.25em 2.25em 1.75em 2.25em;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    visibility: hidden;
 }
 
 #main-page > * {
@@ -21,27 +34,17 @@ article {
     padding-bottom: 12em;
 }
 
-#table-of-contents {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    max-height: 100%;
-    overflow-y: auto;
-    width: 25%;
-    padding: 1em 2em 2em 2em;
-    font-family: Tahoma, sans-serif;
-    font-size: 14px;
-    line-height: 150%;
-    visibility: hidden;
-}
-
-@media (min-width: 60em) {
+@media (min-width: 55em) {
     #main-page {
         width: 75%;
     }
 
     #table-of-contents {
+        width: 25%;
         visibility: visible;
+    }
+
+    article {
+        padding-bottom: 25%;
     }
 }
