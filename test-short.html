@@ -13,11 +13,22 @@
 <body>
     <div id="main-page">
         <header>
-            <a class="button medium skeuomorphic blue" href="https://github.com/Awjin/stylish-markdown">Source</a>
+            <a class="button medium skeuomorphic blue" href="/">Home</a>
         </header>
 
         <article>
             <h1>Heading One</h1>
+
+            <a id="table-of-contents-toggle" class="button medium skeuomorphic blue" href="">Contents &nbsp;&#9776;</a>
+            <nav id="table-of-contents">
+                <ul class="table-of-contents-first-level">
+                    <li><a href="#heading-two">Heading Two</a>
+                        <ul class="table-of-contents-second-level">
+                            <li><a href="#heading-three">Heading Three</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
 
             <h2 id="heading-two">Heading Two</h2>
 
@@ -72,15 +83,5 @@ end</code></pre>
                 </p>
             </article>
         </div>
-
-        <nav id="table-of-contents">
-            <ul class="table-of-contents-first-level">
-                <li><a href="#heading-two">Heading Two</a>
-                    <ul class="table-of-contents-second-level">
-                        <li><a href="#heading-three">Heading Three</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
     </body>
 </html>

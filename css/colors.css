@@ -4,21 +4,25 @@ body, html {
 }
 
 a:link, a:visited {
-    color: #0091EA;
+    color: #1E88E5;
 }
 
-blockquote, pre, code, #table-of-contents {
+blockquote, pre, code {
     background: #ECEFF1;
+}
+
+blockquote *, pre *, code * {
+    color: #37474F;
 }
 
 hr {
     background: #B0BEC5;
 }
 
-#table-of-contents a:link, #table-of-contents a:visited {
-    color: #37474F;
+#table-of-contents {
+    background: #ECEFF2;
 }
 
-#table-of-contents a:hover, #table-of-contents a:focus, #table-of-contents a:active {
-    color: #0091EA;
+#table-of-contents a:link, a:visited {
+    color: #2196F3;
 }

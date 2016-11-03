@@ -29,6 +29,11 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased !important;
 }
 
 ol, ul {

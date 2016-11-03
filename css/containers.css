@@ -1,28 +1,10 @@
-#main-page, #table-of-contents {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    max-height: 100%;
-    overflow-y: auto;
-    width: 100%;
-}
-
 #main-page {
-    left: 0;
-}
-
-#table-of-contents {
-    right: 0;
-    padding: 1.25em 2.25em 1.75em 2.25em;
-    font-family: Tahoma, sans-serif;
-    font-size: 14px;
-    line-height: 150%;
-    visibility: hidden;
+    width: 100%;
 }
 
 #main-page > * {
     width: 100%;
-    max-width: 42em;
+    max-width: 44em;
     margin-right: auto;
     margin-left: auto;
     padding-right: 2em;
@@ -34,17 +16,17 @@ article {
     padding-bottom: 12em;
 }
 
-@media (min-width: 55em) {
+@media all and (min-width: 55em) {
     #main-page {
         width: 75%;
-    }
-
-    #table-of-contents {
-        width: 25%;
-        visibility: visible;
     }
 
     article {
         padding-bottom: 25%;
     }
+}
+
+header {
+    height: auto;
+    margin-top: 3em;
 }
