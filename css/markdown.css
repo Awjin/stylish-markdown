@@ -74,7 +74,7 @@ blockquote, pre {
     display: inline-block;
     width: 100%;
     margin-top: 1.5em;
-    padding: 1.1em 1.3em 1.5em 1.3em;
+    padding: 1.1em 1.3em 1.4em 1.3em;
 }
 
 blockquote {
@@ -85,7 +85,7 @@ blockquote {
 
 pre {
     overflow-x: auto;
-    line-height: 120%;
+    line-height: 150%;
 }
 
 code {
