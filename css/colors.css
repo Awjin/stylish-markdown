@@ -11,12 +11,8 @@ blockquote, pre, code {
     background: #ECEFF1;
 }
 
-blockquote *, pre *, code * {
-    color: #37474F;
-}
-
 hr {
-    background: #B0BEC5;
+    background: #CFD8DC;
 }
 
 #table-of-contents {

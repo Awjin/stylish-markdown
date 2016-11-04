@@ -3,12 +3,13 @@
     font-family: Tahoma, sans-serif;
     font-size: 15px;
     line-height: 150%;
-    margin: .75em 0 3em 0;
-    padding: .85em 1.5em 1.25em 1.5em;
+    margin: 1em 0 2.5em 0;
+    padding: .5em 1.5em 1.25em 1.5em;
+    width: 100%;
 }
 
 #table-of-contents-toggle {
-    margin: 1em 0;
+    margin: .75em 0;
 }
 
 #table-of-contents a {
@@ -33,6 +34,12 @@
     padding-bottom: 1.25em;
 }
 
+@media all and (min-width: 35em) {
+    #table-of-contents {
+        width: 66%;
+    }
+}
+
 @media all and (min-width: 55em) {
     #table-of-contents {
         display: block !important;
@@ -44,7 +51,7 @@
         max-height: 100%;
         overflow-y: auto;
         margin: 0;
-        padding: 1.25em 2.25em 1.75em 2.25em;
+        padding: 1em 2.25em 1.5em 2.25em;
     }
 
     #table-of-contents-toggle {
