@@ -10,8 +10,8 @@ h1, h2, h3 {
 }
 
 h1 {
+    margin-top: 2em;
     font-size: 225%;
-    margin-bottom: 1.5em;
 }
 
 h2 {
@@ -70,32 +70,37 @@ em {
     font-style: italic;
 }
 
-blockquote, pre {
+blockquote {
     display: inline-block;
-    width: 100%;
     margin-top: 1.5em;
-    padding: 1.1em 1.3em 1.4em 1.3em;
+    padding: .75em 1.3em 1.1em 1.3em;
 }
 
-blockquote {
+blockquote * {
     font-size: 16px;
     font-style: italic;
-    line-height: 160%;
-}
-
-pre {
-    overflow-x: auto;
-    line-height: 150%;
+    line-height: 170%;
+    margin: 0;
+    padding: 0;
 }
 
 code {
-    font-family: Courier, monospace;
+    font-family: Andale Mono, monospace;
     font-size: 16px;
     margin: 0 .1em;
-    padding: .15em .4em;
+    padding: .1em .4em .2em .4em;
 }
 
-blockquote *, pre * {
+pre {
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+    line-height: 150%;
+    margin-top: 1.5em;
+    padding: 1em 1.5em 1.25em 1.5em;
+}
+
+pre * {
     margin: 0;
     padding: 0;
 }
@@ -105,4 +110,28 @@ hr {
     height: 1px;
     margin: 3.5em 0;
     border: none;
+}
+
+#table-of-contents * {
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#table-of-contents a {
+    line-height: 225%;
+}
+
+#table-of-contents ol {
+    margin: 0 1.75em;
+    font-weight: bold;
+}
+
+#table-of-contents ul {
+    margin-left: 0;
+    list-style-type: none;
+    font-weight: normal;
+}
+
+#table-of-contents ol > li {
+    padding-bottom: .7em;
 }

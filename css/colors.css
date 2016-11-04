@@ -19,6 +19,6 @@ hr {
     background: #ECEFF2;
 }
 
-#table-of-contents a:link, a:visited {
+#table-of-contents * {
     color: #2196F3;
 }
