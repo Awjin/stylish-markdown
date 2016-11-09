@@ -3,11 +3,19 @@ body, html {
     color: #263238;
 }
 
+#title-section, #table-of-contents, article {
+    border-color: #CFD8DC;
+}
+
+#table-of-contents a {
+    border-color: #CFD8DC;
+}
+
 a:link, a:visited {
     color: #1E88E5;
 }
 
-blockquote, pre, code {
+blockquote {
     background: #ECEFF1;
 }
 
@@ -15,10 +23,70 @@ hr {
     background: #CFD8DC;
 }
 
-#table-of-contents {
-    background: #ECEFF2;
+/* https://highlightjs.org/static/demo/styles/solarized-light.css */
+
+.hljs, code {
+    background: #FDF6E3;
+    color: #556B73;
 }
 
-#table-of-contents * {
-    color: #2196F3;
+.hljs-comment,
+.hljs-quote {
+    color: #93A1A1;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-addition {
+    color: #859900;
+}
+
+.hljs-number,
+.hljs-string,
+.hljs-meta .hljs-meta-string,
+.hljs-literal,
+.hljs-doctag,
+.hljs-regexp {
+    color: #2AA198;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+    color: #268BD2;
+}
+
+.hljs-attribute,
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type {
+    color: #B58900;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+    color: #CB4B16;
+}
+
+.hljs-built_in,
+.hljs-deletion {
+    color: #DC322F;
+}
+
+.hljs-formula {
+    background: #EEE8D5;
+}
+
+.hljs.ignore * {
+    color: #556B73;
 }

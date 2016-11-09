@@ -18,13 +18,15 @@ time, mark, audio, video {
     border: 0;
     font: inherit;
     font-size: 100%;
+    vertical-align: baseline;
+
+    /* Addendum */
+    speak: none;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased !important;
-    speak: none;
-    vertical-align: baseline;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
