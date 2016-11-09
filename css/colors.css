@@ -1,21 +1,23 @@
-body, html {
+body,
+html {
     background: #FDFEFF;
     color: #263238;
 }
 
-#title-section, #table-of-contents, article {
+#title-section,
+#table-of-contents,
+#table-of-contents a,
+article {
     border-color: #CFD8DC;
 }
 
-#table-of-contents a {
-    border-color: #CFD8DC;
+a:link,
+a:visited {
+    color: #2972EE;
 }
 
-a:link, a:visited {
-    color: #1E88E5;
-}
-
-blockquote {
+blockquote,
+code {
     background: #ECEFF1;
 }
 
@@ -23,70 +25,67 @@ hr {
     background: #CFD8DC;
 }
 
-/* https://highlightjs.org/static/demo/styles/solarized-light.css */
+/* Highlight js */
 
-.hljs, code {
-    background: #FDF6E3;
-    color: #556B73;
+/* Background */
+.hljs {
+  background: #455A64;
 }
 
-.hljs-comment,
-.hljs-quote {
-    color: #93A1A1;
+/* Base text */
+.hljs,
+.hljs-template-tag {
+  color: #ECEFF1;
 }
 
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-addition {
-    color: #859900;
-}
-
-.hljs-number,
-.hljs-string,
-.hljs-meta .hljs-meta-string,
-.hljs-literal,
-.hljs-doctag,
-.hljs-regexp {
-    color: #2AA198;
-}
-
+/* Yellow */
 .hljs-title,
-.hljs-section,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class {
-    color: #268BD2;
+.hljs-selector-class,
+.hljs-section,
+.hljs-type,
+.hljs-literal {
+  color: #EFEF8F;
 }
 
-.hljs-attribute,
-.hljs-attr,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-class .hljs-title,
-.hljs-type {
-    color: #B58900;
-}
-
+/* Pink */
 .hljs-symbol,
 .hljs-bullet,
-.hljs-subst,
-.hljs-meta,
-.hljs-meta .hljs-keyword,
-.hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-link {
-    color: #CB4B16;
-}
-
+.hljs-link,
+.hljs-deletion,
+.hljs-string,
 .hljs-built_in,
-.hljs-deletion {
-    color: #DC322F;
+.hljs-builtin-name {
+  color: #EFB3B3;
 }
 
-.hljs-formula {
-    background: #EEE8D5;
+/* Orange */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-tag,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute {
+  color: #F5D0BC;
+}
+
+/* Green */
+.hljs-addition,
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
+  color: #9FC69F;
+}
+
+/* Gray */
+.hljs-number,
+.hljs-subst {
+  color: #90A4AE;
 }
 
 .hljs.ignore * {
-    color: #556B73;
+    color: #ECEFF1;
+    font-style: normal;
+    font-weight: normal;
 }

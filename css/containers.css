@@ -1,17 +1,28 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
-header, footer, #title-section, article {
+header,
+footer,
+#title-section,
+article {
     width: 100%;
-    max-width: 45rem;
+    max-width: 43rem;
     margin: 0 auto;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
-header, footer {
+header,
+footer,
+#title-section {
+    text-align: center;
+}
+
+header,
+footer {
     font-family: Tahoma, sans-serif;
     text-align: center;
 }
@@ -21,27 +32,14 @@ header {
 }
 
 footer {
-    padding-bottom: 3rem;
+    padding-bottom: 3.5rem;
 }
 
 #title-section {
     margin-top: 4.5rem;
-    text-align: center;
 }
 
 article {
     margin-top: 4rem;
     padding-bottom: 8em;
-}
-
-#table-of-contents {
-    margin-top: 3.75rem;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    padding: 0 0 1rem 1.5rem;
-    font-size: 15px;
-    line-height: 160%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: scroll;
 }

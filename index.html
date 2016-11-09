@@ -10,24 +10,24 @@
 </head>
 
 <body>
-<section id="title-section">
-<p><em>Theme applied to <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank">Daring Fireball's Markdown</a>.</em></p>
+<header>
+<p>Theme applied to the text of <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank">Daring Fireball Markdown</a>.</p>
+</header>
 
+<section id="title-section">
 <h1>Markdown: Syntax</h1>
 </section>
 
 <nav id="table-of-contents">
 <ul>
-<p class="table-of-contents-label">1</p>
-<li class="table-of-contents-top-level"><a href="#overview">Overview</a>
+<li><a href="#overview">Overview</a></li>
 <li><a href="#philosophy">Philosophy</a></li>
 <li><a href="#html">Inline HTML</a></li>
 <li><a href="#autoescape">Automatic Escaping for Special Characters</a></li>
 </ul>
 
 <ul>
-<p class="table-of-contents-label">2</p>
-<li class="table-of-contents-top-level"><a href="#block">Block Elements</a>
+<li><a href="#block">Block Elements</a></li>
 <li><a href="#p">Paragraphs and Line Breaks</a></li>
 <li><a href="#header">Headers</a></li>
 <li><a href="#blockquote">Blockquotes</a></li>
@@ -37,8 +37,7 @@
 </ul>
 
 <ul>
-<p class="table-of-contents-label">3</p>
-<li class="table-of-contents-top-level"><a href="#span">Span Elements</a>
+<li><a href="#span">Span Elements</a></li>
 <li><a href="#link">Links</a></li>
 <li><a href="#em">Emphasis</a></li>
 <li><a href="#code">Code</a></li>
@@ -46,8 +45,7 @@
 </ul>
 
 <ul>
-<p class="table-of-contents-label">4</p>
-<li class="table-of-contents-top-level"><a href="#misc">Miscellaneous</a>
+<li><a href="#misc">Miscellaneous</a></li>
 <li><a href="#autolink">Automatic Links</a></li>
 <li><a href="#backslash">Backslash Escapes</a></li>
 </ul>
@@ -536,9 +534,9 @@ easy to include example HTML source code using Markdown -- just paste
 it and indent it, and Markdown will handle the hassle of encoding the
 ampersands and angle brackets. For example, this:</p>
 
-<pre><code class="ignore">    &lt;div class="footer"&gt;
-        &amp;copy; 2004 Foo Corporation
-    &lt;/div&gt;
+<pre><code class="ignore">&lt;div class="footer"&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
 </code></pre>
 
 <p>will turn into:</p>

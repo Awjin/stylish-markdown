@@ -1,0 +1,36 @@
+#table-of-contents {
+    margin-top: 4rem;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 2.75rem 0 3rem 1.5rem;
+    white-space: nowrap;
+    overflow: scroll;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+}
+
+#table-of-contents a {
+    display: block;
+    border: 1px solid;
+    padding: .5rem .75rem;
+}
+
+#table-of-contents ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 12.5rem;
+    margin: 0 1.5rem 0 0;
+    white-space: normal;
+    text-align: left;
+    list-style: none;
+}
+
+#table-of-contents li {
+    margin-top: -1px;
+}
+
+#table-of-contents li:first-child {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
