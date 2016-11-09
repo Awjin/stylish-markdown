@@ -5,20 +5,14 @@ body {
 }
 
 header,
-footer,
 #title-section,
-article {
+article,
+footer {
     width: 100%;
     max-width: 43rem;
     margin: 0 auto;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-}
-
-header,
-footer,
-#title-section {
-    text-align: center;
 }
 
 header,
@@ -28,18 +22,31 @@ footer {
 }
 
 header {
-    padding-top: 2.5rem;
-}
-
-footer {
-    padding-bottom: 3.5rem;
+    margin-top: 3rem;
 }
 
 #title-section {
-    margin-top: 4.5rem;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 article {
-    margin-top: 4rem;
-    padding-bottom: 8em;
+    margin-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+footer {
+    padding-bottom: 6rem;
+}
+
+/* Custom header */
+
+#header-img {
+    height: 4rem;
+    border-radius: 50%;
+    padding: .25rem;
+}
+
+#header-img:hover, #header-img:focus {
+    background: #4790FF;
 }
