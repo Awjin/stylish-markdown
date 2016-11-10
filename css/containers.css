@@ -41,7 +41,7 @@ footer {
 
 /* Custom header */
 
-#header-img {
+#home-button {
     height: 3.75rem;
     border: 1px solid #FDFEFF;
     border-radius: 50%;
@@ -49,8 +49,9 @@ footer {
     transition: .3s all ease;
 }
 
-#header-img:hover,
-#header-img:focus {
+#home-button:hover,
+#home-button:focus,
+#home-button:active {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
