@@ -28,7 +28,7 @@
     margin-left: 1rem;
 }
 
-@media all and (max-width: 44rem) {
+@media all and (max-width: 45rem) {
     #table-of-contents ol {
         margin-left: 0;
     }
