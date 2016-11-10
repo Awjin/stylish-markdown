@@ -4,6 +4,10 @@ html {
     color: #263238;
 }
 
+#table-of-contents {
+    border-color: #B0BEC5;
+}
+
 a:link,
 a:visited {
     color: #0091EA;
