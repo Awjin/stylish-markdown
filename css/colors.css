@@ -4,21 +4,15 @@ html {
     color: #263238;
 }
 
-#title-section,
-#table-of-contents,
-#table-of-contents a,
-article {
-    border-color: #CFD8DC;
-}
-
 a:link,
 a:visited {
-    color: #2972EE;
+    color: #0091EA;
 }
 
 blockquote,
 code {
     background: #ECEFF1;
+    color: #37474F;
 }
 
 hr {
@@ -27,18 +21,17 @@ hr {
 
 /* Highlight js */
 
-/* Background */
 .hljs {
   background: #455A64;
 }
 
-/* Base text */
+/* base text */
 .hljs,
 .hljs-template-tag {
-  color: #ECEFF1;
+    color: #ECEFF1;
 }
 
-/* Yellow */
+/* yellow */
 .hljs-title,
 .hljs-name,
 .hljs-selector-id,
@@ -46,10 +39,10 @@ hr {
 .hljs-section,
 .hljs-type,
 .hljs-literal {
-  color: #EFEF8F;
+    color: #EFDEAE;
 }
 
-/* Pink */
+/* pink */
 .hljs-symbol,
 .hljs-bullet,
 .hljs-link,
@@ -57,31 +50,31 @@ hr {
 .hljs-string,
 .hljs-built_in,
 .hljs-builtin-name {
-  color: #EFB3B3;
+    color: #FAB7B7;
 }
 
-/* Orange */
+/* orange */
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-tag,
 .hljs-variable,
 .hljs-template-variable,
 .hljs-attribute {
-  color: #F5D0BC;
+    color: #FFDAB0;
 }
 
-/* Green */
+/* green */
 .hljs-addition,
 .hljs-comment,
 .hljs-quote,
 .hljs-meta {
-  color: #9FC69F;
+    color: #AFCFAF;
 }
 
-/* Gray */
+/* gray */
 .hljs-number,
 .hljs-subst {
-  color: #90A4AE;
+    color: #90A4AE;
 }
 
 .hljs.ignore * {

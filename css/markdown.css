@@ -13,8 +13,8 @@ h3 {
 }
 
 h1 {
-    margin-bottom:; 2rem;
-    font-size: 200%;
+    margin-bottom: 2rem;
+    font-size: 225%;
 }
 
 h2 {
@@ -84,6 +84,8 @@ a:hover,
 a:focus {
     text-decoration: underline;
 }
+
+/* note: .hljs = class on code = pre */
 
 strong,
 .hljs-strong {

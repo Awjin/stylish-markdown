@@ -11,8 +11,8 @@ footer {
     width: 100%;
     max-width: 43rem;
     margin: 0 auto;
-    padding-left: 1.5rem;
     padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 header,
@@ -22,31 +22,36 @@ footer {
 }
 
 header {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 #title-section {
-    margin-top: 3rem;
+    margin-top: 3.5em;
     text-align: center;
 }
 
 article {
-    margin-top: 3rem;
-    padding-bottom: 6rem;
+    margin-top: 4.5rem;
+    padding-bottom: 8rem;
 }
 
 footer {
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 /* Custom header */
 
 #header-img {
     height: 4rem;
+    border: 1px solid #FDFEFF;
     border-radius: 50%;
     padding: .25rem;
+    transition: .3s all ease;
 }
 
-#header-img:hover, #header-img:focus {
-    background: #4790FF;
+#header-img:hover,
+#header-img:focus {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
