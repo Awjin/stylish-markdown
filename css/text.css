@@ -85,8 +85,6 @@ a:focus {
     text-decoration: underline;
 }
 
-/* note: .hljs = class on code = pre */
-
 strong,
 .hljs-strong {
     font-weight: bold;
@@ -131,4 +129,38 @@ hr {
     height: 1px;
     margin: 3.5rem 0;
     border: none;
+}
+
+#table-of-contents ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: -1.5rem;
+    list-style-position: inside;
+}
+
+#table-of-contents ol > li {
+    flex: 1 0 12.5rem;
+    max-width: 12.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#table-of-contents ul > li {
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+@media all and (max-width: 45rem) {
+    #table-of-contents ol {
+        margin-left: 0;
+    }
+
+    #table-of-contents ol > li {
+        flex: 1 0 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
 }

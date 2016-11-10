@@ -25,22 +25,6 @@ header {
     margin-top: 2.5rem;
 }
 
-#title-section {
-    margin-top: 3em;
-    text-align: center;
-}
-
-article {
-    margin-top: 4rem;
-    padding-bottom: 8rem;
-}
-
-footer {
-    padding-bottom: 4rem;
-}
-
-/* Custom header */
-
 #home-button {
     height: 3.75rem;
     border: 1px solid #FDFEFF;
@@ -55,4 +39,26 @@ footer {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+#title-section {
+    margin-top: 3em;
+    text-align: center;
+}
+
+#table-of-contents {
+    margin-top: 4rem;
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    padding: 0 1.5rem 3rem 1.5rem;
+    line-height: 150%;
+}
+
+article {
+    margin-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+footer {
+    padding-bottom: 4rem;
 }
