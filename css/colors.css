@@ -4,6 +4,10 @@ html {
     color: #263238;
 }
 
+#title-section-date {
+  color: #90A4AE;
+}
+
 a:link,
 a:visited {
     color: #0091EA;
@@ -18,6 +22,8 @@ code {
 hr {
     background: #CFD8DC;
 }
+
+/* Highlightjs */
 
 .hljs {
     background: #455A64;

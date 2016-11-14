@@ -2,7 +2,7 @@ html,
 body {
     font-family: Georgia, serif;
     font-size: 16px;
-    line-height: 170%;
+    line-height: 160%;
 }
 
 h1,
@@ -13,7 +13,6 @@ h3 {
 }
 
 h1 {
-    margin-bottom: 2rem;
     font-size: 205%;
 }
 
@@ -98,6 +97,7 @@ em,
 blockquote,
 .hljs {
     display: inline-block;
+    width: 100%;
     margin: 1.6rem 0 .1rem 0;
     padding: 1rem 1.5rem 1.3rem 1.5rem;
 }
