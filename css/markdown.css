@@ -94,12 +94,23 @@ em,
     font-style: italic;
 }
 
+code {
+    margin: 0 .1rem;
+    padding: .1rem .4rem .2rem .4rem;
+    font-family: Andale Mono, monospace;
+}
+
 blockquote,
 .hljs {
     display: inline-block;
     width: 100%;
-    margin: 1.6rem 0 .1rem 0;
+    margin: 1.75rem 0 .25rem 0;
     padding: 1rem 1.5rem 1.3rem 1.5rem;
+}
+
+.hljs {
+    overflow-x: auto;
+    line-height: 150%;
 }
 
 blockquote * {
@@ -108,18 +119,7 @@ blockquote * {
     font-style: italic;
 }
 
-.hljs {
-    overflow-x: auto;
-    line-height: 150%;
-}
-
-code {
-    margin: 0 .1rem;
-    padding: .1rem .4rem .2rem .4rem;
-    font-family: Andale Mono, monospace;
-}
-
-pre * {
+.hljs * {
     margin: 0;
     padding: 0;
 }
@@ -131,36 +131,9 @@ hr {
     border: none;
 }
 
-#table-of-contents ol {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    margin-left: -1.5rem;
-    list-style-position: inside;
-}
-
-#table-of-contents ol > li {
-    flex: 1 0 12.5rem;
-    max-width: 12.5rem;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
-}
-
-#table-of-contents ul > li {
-    margin-top: .5rem;
-    margin-left: 1rem;
-}
-
-@media all and (max-width: 45rem) {
-    #table-of-contents ol {
-        margin-left: 0;
-    }
-
-    #table-of-contents ol > li {
-        flex: 1 0 100%;
-        max-width: 100%;
-        margin-left: 0;
-    }
+img {
+    display: inline-block;
+    width: 100%;
+    margin: 1.75rem 0 .5rem 0;
+    border: 1px solid;
 }

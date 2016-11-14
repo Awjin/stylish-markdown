@@ -1,0 +1,43 @@
+#table-of-contents {
+    margin: 0 auto 4rem auto;
+    line-height: 140%;
+}
+
+#table-of-contents h2 {
+    font-size: 105%;
+    font-weight: bold;
+}
+
+#table-of-contents ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    margin: 0;
+    list-style-position: inside;
+}
+
+@media all and (min-width: 47rem) {
+    #table-of-contents ol {
+        margin-left: -1.5rem;
+    }
+}
+
+#table-of-contents ol > li {
+    flex: 1 0 100%;
+    margin: 1.5rem 0 0 0;
+    border: 1px solid;
+    padding: 1rem 1.25rem 1.35rem 1.25rem;
+}
+
+@media all and (min-width: 47rem) {
+    #table-of-contents ol > li {
+        flex: 1 0 20rem;
+        margin-left: 1.5rem;
+    }
+}
+
+#table-of-contents ul > li {
+    margin: .5rem 0 0 1rem;
+}

@@ -1,4 +1,5 @@
 @import "reset.css";
 @import "containers.css";
-@import "text.css";
+@import "markdown.css";
+@import "table-of-contents.css";
 @import "colors.css";

@@ -4,10 +4,6 @@ html {
     color: #263238;
 }
 
-#title-section-date {
-  color: #90A4AE;
-}
-
 a:link,
 a:visited {
     color: #0091EA;
@@ -21,6 +17,11 @@ code {
 
 hr {
     background: #CFD8DC;
+}
+
+img,
+#table-of-contents ol > li {
+    border-color: #CFD8DC;
 }
 
 /* Highlightjs */
