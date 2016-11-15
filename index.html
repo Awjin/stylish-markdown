@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link rel="shortcut icon" href="https://awjin.me/assets/icons/favicon.ico">
-<title>Stylish Markdown</title>
+<title>Bookish | Awjin</title>
 
 <!-- Necessary for proper theming -->
 <!-- start -->
@@ -17,165 +17,78 @@
 <body>
 <article>
 <section id="title-section">
-<h1>Markdown: Syntax</h1>
-<p>Excerpt from John Gruber's <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank">Markdown: Syntax</a>, styled.</p>
+<h1>Bookish</h1>
+<p>A crisp, readable Markdown theme &mdash; <a href="https://github.com/Awjin/bookish">Source</a></p>
 </section>
 
 <nav id="table-of-contents">
 <h2>Contents</h2>
 <ol>
 <li>
-<a href="#overview">Overview</a>
+<a href="#heading-two-a">Heading Two A</a>
 <ul>
-<li><a href="#philosophy">Philosophy</a></li>
-<li><a href="#html">Inline HTML</a></li>
+<li><a href="#heading-three-a">Heading Three A</a></li>
+<li><a href="#heading-three-b">Heading Three B</a></li>
 </ul>
 </li>
 <li>
-<a href="#block">Block Elements</a>
-<ul>
-<li><a href="#p">Paragraphs and Line Breaks</a></li>
-<li><a href="#header">Headers</a></li>
-</ul>
+<a href="#heading-two-b">Heading Two B</a>
 </li>
 </ol>
 </nav>
 
-<h2 id="overview">Overview</h2>
+<h2 id="heading-two-a">Heading Two A</h2>
+<p>
+Lorem ipsum dolor sit amet, natum affert te quo. Usu nihil senserit constituam no. His at malis
+<em>novum doctus</em>, agam facilis civibus id pro, ne lorem clita dignissim eam. Pri ad soleat
+euripidis laboramus, omnes hendrerit ei vix, in <strong>possim mollis </strong> his. Qui ad quot
+idque menandri, sed ea bonorum scaevola, ius ea enim ornatus epicurei. Lorem ipsum dolor sit amet,
+natum affert te quote:
+</p>
+<p>
+<blockquote>
+Nec laoreet consequat torquatos ex, sea cu hinc disputationi. Ei adhuc dicta recusabo per, meis
+quodsi adipisci has an. Fugit decore nemore ne nec, nam at indoctum consulatu percipitur.
+</blockquote>
+</p>
 
-<h3 id="philosophy">Philosophy</h3>
+<h3 id="heading-three-a">Heading Three A</h3>
+<p>
+Lorem ipsum dolor sit amet, natum affert te quo. Usu nihil senserit constituam no. His at malis
+<a href="#0">novum doctus</a>, agam facilis civibus id pro, ne lorem clita dignissim eam. Pri ad
+soleat euripidis laboramus, omnes hendrerit ei vix, in possim mollis his. Qui ad <a href="#0">
+quotidque</a> menandri, sed ea bonorum scaevola, ius ea enim ornatus epicurei.
+</p>
+<ol>
+<li>item one</li>
+<li>item two
+<ul>
+<li>item two a</li>
+<li>item two b</li>
+</ul>
+</li>
+<li>item three</li>
+</ol>
+<h3 id="heading-three-b">Heading Three B</h3>
+<pre><code># Comment
+def function
+    (1..9).each do |num|
+        puts "hello world number #{num}"
+    end
+end</code></pre>
 
-<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
-
-<p>Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it's been marked up with tags or formatting instructions. While
-Markdown's syntax has been influenced by several existing text-to-HTML
-filters -- including <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a>, <a href="http://www.aaronsw.com/2002/atx/">atx</a>, <a href="http://textism.com/tools/textile/">Textile</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>,
-<a href="http://www.triptico.com/software/grutatxt.html">Grutatext</a>, and <a href="http://ettext.taint.org/doc/">EtText</a> -- the single biggest source of
-inspiration for Markdown's syntax is the format of plain text email. inspiration for Markdown's syntax iasdf and the ting.</p>
-
-<p>To this end, Markdown's syntax is comprised entirely of punctuation
-characters, which punctuation characters have been carefully chosen so
-as to look like what they mean. E.g., asterisks around a word actually
-look like *emphasis*. Markdown lists look like, well, lists. Even
-blockquotes look like quoted passages of text, assuming you've ever
-used email.</p>
-
-<h3 id="html">Inline HTML</h3>
-
-<p>Markdown's syntax is intended for one purpose: to be used as a
-format for <em>writing</em> for the web.</p>
-
-<p>Markdown is not a replacement for HTML, or even close to it. Its
-syntax is very small, corresponding only to a very small subset of
-HTML tags. The idea is <em>not</em> to create a syntax that makes it easier
-to insert HTML tags. In my opinion, HTML tags are already easy to
-insert. The idea for Markdown is to make it easy to read, write, and
-edit prose. HTML is a <em>publishing</em> format; Markdown is a <em>writing</em>
-format. Thus, Markdown's formatting syntax only addresses issues that
-can be conveyed in plain text.</p>
-
-<p>For any markup that is not covered by Markdown's syntax, you simply
-use HTML itself. There's no need to preface it or delimit it to
-indicate that you're switching from Markdown to HTML; you just use
-the tags.</p>
-
-<p>The only restrictions are that block-level HTML elements -- e.g. <code>&lt;div&gt;</code>,
-<code>&lt;table&gt;</code>, <code>&lt;pre&gt;</code>, <code>&lt;p&gt;</code>, etc. -- must be separated from surrounding
-content by blank lines, and the start and end tags of the block should
-not be indented with tabs or spaces. Markdown is smart enough not
-to add extra (unwanted) <code>&lt;p&gt;</code> tags around HTML block-level tags.</p>
-
-<p>For example, to add an HTML table to a Markdown article:</p>
-
-<pre><code class="ignore">This is a regular paragraph.
-
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Foo&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-
-This is another regular paragraph.
-</code></pre>
-
-<p>Note that Markdown formatting syntax is not processed within block-level
-HTML tags. E.g., you can't use Markdown-style <code>*emphasis*</code> inside an
-HTML block.</p>
-
-<p>Span-level HTML tags -- e.g. <code>&lt;span&gt;</code>, <code>&lt;cite&gt;</code>, or <code>&lt;del&gt;</code> -- can be
-used anywhere in a Markdown paragraph, list item, or header. If you
-want, you can even use HTML tags instead of Markdown formatting; e.g. if
-you'd prefer to use HTML <code>&lt;a&gt;</code> or <code>&lt;img&gt;</code> tags instead of Markdown's
-link or image syntax, go right ahead.</p>
-
-<p>Unlike block-level HTML tags, Markdown syntax <em>is</em> processed within
-span-level tags.</p>
-
+<p>
+Eos nonumy tempor mollis et, eu eros vero assum cum. Mucius perpetua molestiae sit no, graeco
+recteque ius cu, <code>quo suas erant</code> efficiantur an. Cu sed congue eligendi, et amet legere
+pri, ei omnes eligendi vim. Ei vis altera sententiae, antiopam philosophia eum.
+</p>
 <hr>
-
-<h2 id="block">Block Elements</h2>
-
-<h3 id="p">Paragraphs and Line Breaks</h3>
-
-<p>A paragraph is simply one or more consecutive lines of text, separated
-by one or more blank lines. (A blank line is any line that looks like a
-blank line -- a line containing nothing but spaces or tabs is considered
-blank.) Normal paragraphs should not be intended with spaces or tabs.</p>
-
-<p>The implication of the "one or more consecutive lines of text" rule is
-that Markdown supports "hard-wrapped" text paragraphs. This differs
-significantly from most other text-to-HTML formatters (including Movable
-Type's "Convert Line Breaks" option) which translate every line break
-character in a paragraph into a <code>&lt;br /&gt;</code> tag.</p>
-
-<p>When you <em>do</em> want to insert a <code>&lt;br /&gt;</code> break tag using Markdown, you
-end a line with two or more spaces, then type return.</p>
-
-<p>Yes, this takes a tad more effort to create a <code>&lt;br /&gt;</code>, but a simplistic
-"every line break is a <code>&lt;br /&gt;</code>" rule wouldn't work for Markdown.
-Markdown's email-style <a href="#blockquote">blockquoting</a> and multi-paragraph <a href="#list">list items</a>
-work best -- and look better -- when you format them with hard breaks.</p>
-
-<h3 id="header">Headers</h3>
-
-<p>Markdown supports two styles of headers, <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a> and <a href="http://www.aaronsw.com/2002/atx/">atx</a>.</p>
-
-<p>Setext-style headers are "underlined" using equal signs (for first-level
-headers) and dashes (for second-level headers). For example:</p>
-
-<pre><code class="ignore">This is an H1
-=============
-
-This is an H2
--------------
-</code></pre>
-
-<p>Any number of underlining <code>=</code>'s or <code>-</code>'s will work.</p>
-
-<p>Atx-style headers use 1-6 hash characters at the start of the line,
-corresponding to header levels 1-6. For example:</p>
-
-<pre><code class="ignore"># This is an H1
-
-## This is an H2
-
-###### This is an H6
-</code></pre>
-
-<p>Optionally, you may "close" atx-style headers. This is purely
-cosmetic -- you can use this if you think it looks better. The
-closing hashes don't even need to match the number of hashes
-used to open the header. (The number of opening hashes
-determines the header level.) :</p>
-
-<pre><code class="ignore"># This is an H1 #
-
-## This is an H2 ##
-
-### This is an H3 ######
-</code></pre>
+<h2 id="heading-two-b">Heading Two B</h2>
+<p>
+Cu fuisset percipitur theophrastus eam, tollit evertitur quaerendum qui ne, nam altera detracto ei.
+Cibo tempor te vim. Cupartem meliore vulputate eam, pri bonorum oporteat tacimates ea. Pertinax
+consulatu conceptam pro ne.
+</p>
 </article>
 
 <footer>

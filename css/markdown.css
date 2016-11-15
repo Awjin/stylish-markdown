@@ -35,7 +35,7 @@ ul {
 
 ol,
 ul {
-    margin-left: 2rem;
+    margin-left: 2.75rem;
     list-style-position: outside;
 }
 
@@ -52,26 +52,11 @@ ul ul,
 ol ul,
 ul ol {
     margin-top: 0;
-    margin-left: 1.5rem;
+    margin-left: 1.75rem;
 }
 
 li {
-    margin-top: .75rem;
-}
-
-ol li {
-    padding-left: .2rem;
-}
-
-ul li {
-    padding-left: 0;
-}
-
-ol ol li,
-ul ul li,
-ol ul li,
-ul ol li {
-    margin-top: 0;
+    margin-top: .15rem;
 }
 
 a,
@@ -84,14 +69,20 @@ a:focus {
     text-decoration: underline;
 }
 
-strong,
-.hljs-strong {
+strong {
     font-weight: bold;
 }
 
-em,
-.hljs-emphasis {
+em {
     font-style: italic;
+}
+
+blockquote {
+    display: inline-block;
+    padding: 1rem 1.5rem 1.2rem 1.5rem;
+    margin: .5rem 0;
+    font-style: italic;
+    line-height: 150%;
 }
 
 code {
@@ -100,23 +91,13 @@ code {
     font-family: Andale Mono, monospace;
 }
 
-blockquote,
 .hljs {
     display: inline-block;
     width: 100%;
-    margin: 1.75rem 0 .25rem 0;
-    padding: 1rem 1.5rem 1.3rem 1.5rem;
-}
-
-.hljs {
     overflow-x: auto;
+    margin: 1.9rem 0 .5rem 0;
+    padding: 1rem 1.5rem 1.4rem 1.5rem;
     line-height: 150%;
-}
-
-blockquote * {
-    margin: 0;
-    padding: 0;
-    font-style: italic;
 }
 
 .hljs * {
