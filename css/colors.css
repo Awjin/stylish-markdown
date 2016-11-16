@@ -42,7 +42,7 @@ img,
 .hljs-literal,
 .hljs-section,
 .hljs-link {
-    color: #80D8FF;  /* blue */
+    color: #40C4FF;  /* blue */
 }
 
 .hljs-string,
@@ -56,7 +56,7 @@ img,
 .hljs-variable,
 .hljs-template-tag,
 .hljs-template-variable {
-    color: #E6EE9C;  /* lime */
+    color: #DCE775;  /* lime */
 }
 
 .hljs-comment,

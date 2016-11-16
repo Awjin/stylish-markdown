@@ -1,10 +1,12 @@
 #table-of-contents {
     margin: 0 auto 4rem auto;
     line-height: 140%;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
 }
 
 #table-of-contents h2 {
-    font-size: 105%;
+    font-size: 112%;
     font-weight: bold;
 }
 
@@ -15,29 +17,30 @@
     align-items: stretch;
     align-content: flex-start;
     margin: 0;
-    list-style-position: inside;
+}
+
+#table-of-contents ul {
+    margin-left: 2.25rem;
+}
+
+#table-of-contents ol > li {
+    flex: 1 0 100%;
+    margin-top: 1.5rem;
+    border: 1px solid;
+    padding: 1rem 1.25rem 1.5rem 1.25rem;
+}
+
+#table-of-contents ul > li {
+    margin-top: .4rem;
 }
 
 @media all and (min-width: 47rem) {
     #table-of-contents ol {
         margin-left: -1.5rem;
     }
-}
 
-#table-of-contents ol > li {
-    flex: 1 0 100%;
-    margin: 1.5rem 0 0 0;
-    border: 1px solid;
-    padding: 1rem 1.25rem 1.35rem 1.25rem;
-}
-
-@media all and (min-width: 47rem) {
     #table-of-contents ol > li {
-        flex: 1 0 20rem;
+        flex: 1 0 19.25rem;
         margin-left: 1.5rem;
     }
-}
-
-#table-of-contents ul > li {
-    margin: .5rem 0 0 1rem;
 }
